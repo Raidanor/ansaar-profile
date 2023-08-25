@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import {useState} from 'react';
-
 import Layout from './pages/Layout.js';
 import Blogs from './pages/Resume.js';
 
@@ -34,29 +32,6 @@ const bootlinks =
   </>
 
 )
-
-function Example(props)
-{
-
-
-  if (props.flag === true)
-  {
-    return(<Layout />)
-  }
-  else return(<Blogs />)
-}
-
-function Temp()
-{
-  const [flag, setFlag] = useState(true);
-  return(
-    <>
-      <a onClick = {() => setFlag(!flag)}>Toggle</a>
-      <Example flag = {flag}/>
-    </>
-  )
-
-}
 
 root.render(bootlinks);
 
