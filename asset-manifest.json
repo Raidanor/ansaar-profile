@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/ansaar-profile/static/css/main.39841057.css",
-    "main.js": "/ansaar-profile/static/js/main.79cba1b9.js",
+    "main.js": "/ansaar-profile/static/js/main.1dd87c05.js",
     "static/js/787.bc7d429a.chunk.js": "/ansaar-profile/static/js/787.bc7d429a.chunk.js",
     "static/media/cb1.jpg": "/ansaar-profile/static/media/cb1.062106713f978ef8e38f.jpg",
     "static/media/image1.jpg": "/ansaar-profile/static/media/image1.811831375d551ad2364c.jpg",
     "static/media/resume.pdf": "/ansaar-profile/static/media/resume.ab045a6aa2d97c11d420.pdf",
     "index.html": "/ansaar-profile/index.html",
     "main.39841057.css.map": "/ansaar-profile/static/css/main.39841057.css.map",
-    "main.79cba1b9.js.map": "/ansaar-profile/static/js/main.79cba1b9.js.map",
+    "main.1dd87c05.js.map": "/ansaar-profile/static/js/main.1dd87c05.js.map",
     "787.bc7d429a.chunk.js.map": "/ansaar-profile/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39841057.css",
-    "static/js/main.79cba1b9.js"
+    "static/js/main.1dd87c05.js"
   ]
 }
