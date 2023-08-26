@@ -26,7 +26,6 @@ function App() {
             </div>
         </nav>
       <Layout />
-      <Layout />
       <br />
     </div>
   );
