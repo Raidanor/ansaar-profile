@@ -51,13 +51,27 @@ body {
 
   width: var(100%);
 
+  height: 100%;
+
   background-image: url('assets/image1.jpg');
   background-size: cover;
 }
 
 .transparent{
-  background-color: rgba(255, 255, 255, 0.650);
+  background-color: rgba(255, 255, 255, 0.2);
 }
+
+.rightbarbg{
+  background-color: rgba(3, 255, 58, 0.6);
+}
+
+.rightbarbg2{
+  background-color: rgba(255, 0, 0, 0.6);
+}
+.blue-bg{
+  background-color: rgba(4, 0, 255, 0.6);
+}
+
 
 .nodal
 {
@@ -70,4 +84,29 @@ body {
 .pad
 {
   padding: 5px;
+}
+
+.mainborder
+{
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+
+.verticaltext{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.maintext
+{
+  padding:25px;
+}
+.h100
+{
+  height:100%;
+}
+flex-fill
+{
+  flex:1;
 }
