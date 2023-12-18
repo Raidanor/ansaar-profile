@@ -1,6 +1,7 @@
 import './App.css';
 
 import ReactModal from 'react-modal';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 import React, {useState} from 'react';
 
@@ -15,7 +16,9 @@ import RightBar2 from './pages/RightBar2.js';
 function App() {
 
   return (
-    <div className="App h-100">
+
+    <Router>
+    <div className="App bg-gradient">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
             <div class="container">
                 <a class="navbar-brand text-white">Ansaar Khadaroo</a>
@@ -23,41 +26,23 @@ function App() {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link"><ResumeTab /></a></li>
-                        <li class="nav-item"><a class="nav-link"><ContactTab /></a></li>
-                        <li class="nav-item"><a class="nav-link" href = "https://raidanor.itch.io/shoot"><u>Game</u></a></li>
+                        <li class="nav-item"><a class="nav-link"><Link to="/Contact">Contact</Link></a></li>
+                        <li class="nav-item"><a class="nav-link" href = "https://raidanor.itch.io/shoot">Game</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-      <div class = "container-fluid transparent h-100">
-        <div class = "row h-100">
-          <div class="col-10 maintext flex-fill h-100">
-            <div class = "h-100">
-              <Layout />
-            </div>
-          </div>
-          <div  class="col-2 flex-fill vh-100">
-            <div class="h-100">
-              <div class="row rightbarbg">
-                <div class="col">
-                  <RightBar />
-                </div>
-              </div>
-              <div class="row rightbarbg2">
-                <div class="col" >
-                  <RightBar2 />
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
+        <Routes>
+                <Route exact path="/" element={<Layout />} />
+                <Route exact path="/Contact" element={<Contact />} />
+                
+        </Routes>
     </div>
+    </Router>
   );
 };
+
+
 
 function ResumeTab()
 {
@@ -71,43 +56,6 @@ function ResumeTab()
         onRequestClose={() => setIsOpen(false)}
       >
         <Resume />
-      </ReactModal>
-    </div>
-  );
-};
-
-
-function ProtoContact()
-{
-  const [flagContact, setFlagContact] = useState(true);
-  return(
-    <>
-      <a onClick = {() => setFlagContact(!flagContact)}>ToggleContact</a>
-      <RenderContact flag = {flagContact}/>
-    </>
-  )
-};
-
-function RenderContact(props)
-{
-  if (props.flag === false)
-  {
-    return(<Contact />)
-  }
-};
-
-function ContactTab()
-{
-  const [isOpen, setIsOpen] = useState(false);
- 
-  return (
-    <div>
-      <button onClick={() => setIsOpen(!isOpen)}>Contact</button>
-      <ReactModal
-        isOpen={isOpen}
-        onRequestClose={() => setIsOpen(false)}
-      >
-        <Contact/>
       </ReactModal>
     </div>
   );
