@@ -51,12 +51,10 @@ body
 
     width: var(100%);
 
-    height: 100%;
-
-    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
-
-    background-image: url('assets/image1.jpg');
-    background-size: cover;
+    /* height: 100%; */
+    background-image: url('assets/win10.jpg');
+    background-size: cover; 
+    
 }
 
 .transparent{
@@ -77,9 +75,10 @@ body
 
 .nodal
 {
-    background-image: linear-gradient(79deg, rgb(22, 5, 253), rgba(255, 255, 255, 0.521) 60%, rgb(251, 255, 0));
-    height: 100%;
+    /* background-image: linear-gradient(79deg, rgb(22, 5, 253), rgba(255, 255, 255, 0.521) 60%, rgb(251, 255, 0));
+    height: 100%; */
 }
+
 
 
 .mainborder
@@ -98,10 +97,7 @@ body
 {
   padding:25px;
 }
-.h100
-{
-  height:100%;
-}
+
 flex-fill
 {
   flex:1;
@@ -141,9 +137,4 @@ flex-fill
   padding-top: 0.5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-}
-
-.bg-gradient
-{
-    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
 }
