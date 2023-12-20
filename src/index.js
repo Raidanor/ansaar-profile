@@ -24,7 +24,7 @@ const bootlinks =
       <meta name="author" content="" />
       <link href="css/styles.css" rel="stylesheet" />
       <script src="js/scripts.js"></script>
-      <title>Ansaar Khadaroo</title>
+      <title>Ansaar</title>
     </head>
     <body>
       <App />
