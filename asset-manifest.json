@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ansaar-profile/static/css/main.2a2808ce.css",
-    "main.js": "/ansaar-profile/static/js/main.05e646a3.js",
+    "main.css": "/ansaar-profile/static/css/main.caaf6423.css",
+    "main.js": "/ansaar-profile/static/js/main.918b3406.js",
     "static/js/787.bc7d429a.chunk.js": "/ansaar-profile/static/js/787.bc7d429a.chunk.js",
     "static/media/resume.pdf": "/ansaar-profile/static/media/resume.ab045a6aa2d97c11d420.pdf",
     "index.html": "/ansaar-profile/index.html",
-    "main.2a2808ce.css.map": "/ansaar-profile/static/css/main.2a2808ce.css.map",
-    "main.05e646a3.js.map": "/ansaar-profile/static/js/main.05e646a3.js.map",
+    "main.caaf6423.css.map": "/ansaar-profile/static/css/main.caaf6423.css.map",
+    "main.918b3406.js.map": "/ansaar-profile/static/js/main.918b3406.js.map",
     "787.bc7d429a.chunk.js.map": "/ansaar-profile/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a2808ce.css",
-    "static/js/main.05e646a3.js"
+    "static/css/main.caaf6423.css",
+    "static/js/main.918b3406.js"
   ]
 }
